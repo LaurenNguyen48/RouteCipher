@@ -113,7 +113,7 @@ public class RouteCipher {
             w += numRows * numCols;
         }
 
-        return cipherText;
+        return i;
          
 
     }
