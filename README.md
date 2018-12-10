@@ -33,6 +33,7 @@ public class RouteCipher {
         /* Implement as you see fit */
         numRows = rows;
         numCols = cols;
+        letterBlock = new String[numRows][numCols];
     
     }
 
