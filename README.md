@@ -60,6 +60,8 @@ public class RouteCipher {
                      else{
                          letterBlock[r][c] = "A";
                      }
+                     //EDITED HERE
+                     cnt++;
                  }
              }
 
