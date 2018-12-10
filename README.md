@@ -104,12 +104,16 @@ public class RouteCipher {
         /*
          * Implmented in part B
          */
-         String i = "";
-        for ( int w = 0; w < message.length(); w += numRows*numCols ) {
-           fillBlock(message.substring(w));
-           i = i + encryptBlock();
+        String i = "";
+        int w = 0;
+
+        while(w < message.length()) {
+            fillBlock(message.substring(w);
+            i += encryptBlock();
+            w += numRows * numCols;
         }
-        return i;
+
+        return cipherText;
          
 
     }
