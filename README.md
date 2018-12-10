@@ -107,12 +107,7 @@ public class RouteCipher {
          */
          String i = "";
         for ( int w = 0; w < message.length(); w += numRows*numCols ) {
-            if(w + numRows*numCols < message.length()){
-                fillBlock(message.substring(w, w+numRows*numCols ));
-            }
-            else{
-                fillBlock(message.substring(w));
-            }
+           fillBlock(message.substring(w));
            i = i + encryptBlock();
         }
         return i;
