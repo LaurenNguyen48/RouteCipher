@@ -54,7 +54,6 @@ public class RouteCipher {
              for(int c = 0; c < numCols; c++){
                      if(cnt < str.length()){
                          letterBlock[r][c] = str.substring(cnt, cnt + 1);
-                         
                      }
                      else{
                          letterBlock[r][c] = "A";
